@@ -23,6 +23,8 @@ void main() {
   for (int number in numbers) {
     print(number);
   }
+  print("Foreach Loop 2");
+  numbers.forEach((number) => print(number));
   //while
   print("While Loop");
   int i = 0;
